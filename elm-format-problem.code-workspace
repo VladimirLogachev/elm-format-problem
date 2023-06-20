@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "root"
+    },
+    {
+      "path": "app1",
+      "name": "app1"
+    },
+    {
+      "path": "app2",
+      "name": "app2"
+    }
+  ],
+  "settings": {
+    "[elm]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "elmTooling.elm-ls-vscode"
+    },
+    "elmLS.elmReviewDiagnostics": "warning"
+  },
+  "extensions": {
+    "recommendations": ["elmtooling.elm-ls-vscode"]
+  }
+}
